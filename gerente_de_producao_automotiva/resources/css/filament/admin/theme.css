@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+@import '../../../../vendor/filament/filament/resources/css/base.css';
+
+@config 'tailwind.config.js';
+
+:root {
+    --primary-color: #1E3A8A;
+}
+
+.fi-sidebar {
+    background: #0F172A;
+}
+
+.fi-sidebar-item-active {
+    background: #1E3A8A;
+}
+
+.fi-topbar {
+    background: #FFFFFF;
+}
+
+.fi-main {
+    background: #F8FAFC;
+}
+
